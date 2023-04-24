@@ -1,0 +1,39 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1682359058760' stop='1682359060963'>
+    <name>user POST /api/v1/login</name>
+    <title>user POST /api/v1/login</title>
+    <test-cases>
+        <test-case start='1682359058760' status='passed' stop='1682359059058'>
+            <name>Метод должен существовать</name>
+            <title>Метод должен существовать</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1682359059058' status='passed' stop='1682359059391'>
+            <name>Авторизация должна проходить успешно с правильным логином и паролем</name>
+            <title>Авторизация должна проходить успешно с правильным логином и паролем</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1682359059391' status='passed' stop='1682359060639'>
+            <name>Авторизация должна возвращать статус с кодом ошибки если логин неверный</name>
+            <title>Авторизация должна возвращать статус с кодом ошибки если логин неверный</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1682359060639' status='passed' stop='1682359060962'>
+            <name>Авторизация должна возвращать статус с кодом ошибки если пароль неверный</name>
+            <title>Авторизация должна возвращать статус с кодом ошибки если пароль неверный</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
